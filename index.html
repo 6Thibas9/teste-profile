@@ -6,8 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>6Thibas9</h1>
-    <p>começei a estudar programaçao com 18 anos</p>
+    <svg viewBox="0 0 600 300">
+        <!-- simbolo -->
+        <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="50%" dy=".35em">6Thibas9</text>
+        </symbol>
+
+        <!-- duplicar o simbolo -->
+         <use class="text" xlink:href="#s-text"></use>
+         <use class="text" xlink:href="#s-text"></use>
+         <use class="text" xlink:href="#s-text"></use>
+         <use class="text" xlink:href="#s-text"></use>
+         <use class="text" xlink:href="#s-text"></use>
+
+    </svg>
     
 </body>
 </html>
